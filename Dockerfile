@@ -6,7 +6,8 @@ RUN xcaddy build \
     --with github.com/WeidiDeng/caddy-cloudflare-ip \
     --with github.com/mholt/caddy-dynamicdns \
     --with github.com/greenpau/caddy-security \
-    --with github.com/muety/caddy-remote-host
+    --with github.com/muety/caddy-remote-host \
+    --with github.com/fvbommel/caddy-combine-ip-ranges
 
 FROM caddy:2.11.2
 
